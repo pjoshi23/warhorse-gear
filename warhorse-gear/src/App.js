@@ -1,9 +1,9 @@
 import React from 'react';
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
-import Navbar from './components/Navbar';
-import Home from './pages/Home';
-import PrivacyPolicy from './pages/PrivacyPolicy';
-import AboutUs from './pages/AboutUs';
+import Navbar from './Navbar';
+import Home from './Home';
+import PrivacyPolicy from './PP';
+import AboutUs from './About';
 
 function App() {
   return (
