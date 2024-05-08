@@ -1,19 +1,23 @@
 import React from 'react';
-import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
-import Navbar from './pages/Navbar';
-import Home from './pages/Home';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import Contact from './pages/Contact';
 import PrivacyPolicy from './pages/PP';
 import AboutUs from './pages/About';
+import Header from './components/Header';
+import Footer from './components/Footer';
 
 function App() {
   return (
     <Router>
-      <Navbar />
-      <Routes>
-        <Route path="/" exact component={Home} />
-        <Route path="/privacy-policy" component={PrivacyPolicy} />
-        <Route path="/about-us" component={AboutUs} />
-      </Routes>
+      <div className="App">
+        <Header />
+        <Routes>
+          <Route path="/about-us" element={<AboutUs />} />
+          <Route path="/privacy-policy" element={<PrivacyPolicy />} />
+          <Route path="/contact" element={<Contact />} />
+        </Routes>
+        <Footer />
+      </div>
     </Router>
   );
 }
