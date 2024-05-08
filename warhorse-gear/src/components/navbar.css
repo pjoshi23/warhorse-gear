@@ -1,0 +1,71 @@
+.component {
+  height: 400px;
+  width: 1728px;
+}
+
+.component .overlap-group {
+  height: 400px;
+  position: relative;
+}
+
+.component .rectangle {
+  background-color: #000000;
+  height: 150px;
+  left: 0;
+  position: absolute;
+  top: 81px;
+  width: 1728px;
+}
+
+.component .text-wrapper {
+  color: #ffffff;
+  font-family: "Aldrich-Regular", Helvetica, serif;
+  font-size: 36px; font-weight: 400; height: 54px;
+  left: 495px;
+  letter-spacing: 0; line-height: normal; position: absolute; text-align: center;
+  top: 162px;
+  width: 244px;
+}
+
+.component .div {
+  color: #ffffff;
+  font-family: "Aldrich-Regular", Helvetica, serif;
+  font-size: 36px;
+  font-weight: 400;
+  height: 54px;
+  left: 989px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 162px;
+  width: 244px;
+}
+
+.component .white-profile {
+  height: 50px;
+  left: 1632px;
+  object-fit: cover;
+  position: absolute;
+  top: 163px;
+  width: 50px;
+}
+
+.component .ellipse {
+  background-color: #000000;
+  border-radius: 125px;
+  height: 250px;
+  left: 739px;
+  position: absolute;
+  top: 55px;
+  width: 250px;
+}
+
+.component .warhorse-gear-logo-c {
+  height: 400px;
+  left: 664px;
+  object-fit: cover;
+  position: absolute;
+  top: 0;
+  width: 400px;
+}

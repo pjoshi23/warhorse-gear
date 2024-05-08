@@ -1,0 +1,53 @@
+.bag {
+  background-color: #000000;
+  height: 50px;
+  width: 50px;
+}
+
+.bag .shopping-bag {
+  height: 46px;
+  left: 2px;
+  position: absolute;
+  top: 1px;
+  width: 46px;
+}
+
+.bag .overlap-group {
+  background-image: url("../images/shopping-bag.png");
+  background-size: 100% 100%;
+  height: 46px;
+  left: 2px;
+  position: relative;
+  top: 1px;
+  width: 46px;
+}
+
+.bag .ellipse {
+  background-color: #ff7f7f;
+  border-radius: 6px;
+  height: 12px;
+  left: 31px;
+  position: absolute;
+  top: 7px;
+  width: 12px;
+}
+
+.bag .text-wrapper {
+  color: #ffffff;
+  font-family: "Aldrich-Regular", Helvetica, serif;
+  font-size: 8px;
+  font-weight: 400;
+  height: 8px;
+  left: 33px;
+  letter-spacing: 0.8px;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 8px;
+  white-space: nowrap;
+  width: 8px;
+}
+
+.bag.empty {
+  position: relative;
+}
